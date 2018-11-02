@@ -51,7 +51,7 @@ public class Album {
 
     @Override
     public String toString() {
-        return "Book{" +
+        return "Album{" +
                 "id=" + id +
                 ", author='" + author + '\'' +
                 ", title='" + title + '\'' +
