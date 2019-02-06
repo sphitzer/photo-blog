@@ -11,3 +11,18 @@ ADD ${JAR_FILE} photo-blog.jar
 # Run the jar file
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/photo-blog.jar"]
 
+FROM node as nodetemp
+WORKDIR /usr/src/app
+COPY ./photo-blog-ui/ ./
+RUN npm install @angular/cli
+COPY ./photo-blog-ui ./
+RUN npm run build
+
+# Stage 2
+FROM nginx:1.13.12-alpine
+COPY --from=nodetemp /usr/src/app/dist/photo-blog-ui/ /usr/share/nginx/html/
+COPY ./nginx.conf /etc/nginx/conf.d/default.conf
+
+
+
+
