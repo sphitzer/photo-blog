@@ -1,0 +1,14 @@
+/Volumes/MainVolume/photo-blog/src/main/java/com/courterco/photoblog/domain/Photo.java
+/Volumes/MainVolume/photo-blog/src/main/java/com/courterco/photoblog/service/AlbumService.java
+/Volumes/MainVolume/photo-blog/src/main/java/com/courterco/photoblog/service/PhotoServiceImpl.java
+/Volumes/MainVolume/photo-blog/src/main/java/com/courterco/photoblog/repository/AlbumRepository.java
+/Volumes/MainVolume/photo-blog/src/main/java/com/courterco/photoblog/controller/PhotoController.java
+/Volumes/MainVolume/photo-blog/src/main/java/com/courterco/photoblog/repository/PhotoRepository.java
+/Volumes/MainVolume/photo-blog/src/main/java/com/courterco/photoblog/service/exception/PhotoAlreadyExistsException.java
+/Volumes/MainVolume/photo-blog/src/main/java/com/courterco/photoblog/service/exception/AlbumAlreadyExistsException.java
+/Volumes/MainVolume/photo-blog/src/main/java/com/courterco/photoblog/domain/Album.java
+/Volumes/MainVolume/photo-blog/src/main/java/com/courterco/photoblog/service/PhotoService.java
+/Volumes/MainVolume/photo-blog/src/main/java/com/courterco/photoblog/service/AlbumServiceImpl.java
+/Volumes/MainVolume/photo-blog/src/main/java/com/courterco/photoblog/configuration/SwaggerConfig.java
+/Volumes/MainVolume/photo-blog/src/main/java/com/courterco/photoblog/PhotoBlogApplication.java
+/Volumes/MainVolume/photo-blog/src/main/java/com/courterco/photoblog/controller/AlbumController.java

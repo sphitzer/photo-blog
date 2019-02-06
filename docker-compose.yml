@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+  angular:
+    hostname: localhost
+    container_name: photo-blog-ui
+    build: ./photo-blog-ui/.
+    ports:
+    - "80:80"
+  springboot:
+    hostname: localhost
+    container_name: photo-blog-app
+    build: ./photo-blog-app/.
+    ports:
+    - "5000:5000"
